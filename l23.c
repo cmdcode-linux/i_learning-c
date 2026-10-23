@@ -8,8 +8,9 @@ int main(void)
 	scanf("%d", &n);
 
 	/*Цикли з предумовою for*/
-	for(s = 0; n > 0; --)
+	for(s = 0; n > 0; --n){
 	   s += n*n;
+	}
 
 	   printf("s = %d", s);
 	   return 0;
